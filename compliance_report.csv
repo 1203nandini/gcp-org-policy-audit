@@ -1,0 +1,7 @@
+id,policy,expected,actual,status,notes
+1,compute.vmExternalIpAccess,DENY,ALLOW,FAIL,expected enforcement not met
+2,compute.skipDefaultNetworkCreation,ENFORCED,ENFORCED,PASS,
+3,compute.allowedVpcPeeringRanges,"['10.0.0.0/8']","['10.0.0.0/8', '192.168.0.0/16']",PASS,
+4,compute.osLogin,ENFORCED,ENFORCED,PASS,
+5,compute.requireShieldedVm,ENFORCED,DENY,FAIL,expected enforcement not met
+6,compute.restrictProtocolForwarding,ENFORCED,ENFORCED,PASS,
