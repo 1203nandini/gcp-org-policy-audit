@@ -1,0 +1,26 @@
+{
+  "compute.vmExternalIpAccess": {
+    "type": "boolean",
+    "expected": "DENY"
+  },
+  "compute.skipDefaultNetworkCreation": {
+    "type": "boolean",
+    "expected": "ENFORCED"
+  },
+  "compute.allowedVpcPeeringRanges": {
+    "type": "list",
+    "expected": ["10.0.0.0/8"]
+  },
+  "compute.osLogin": {
+    "type": "boolean",
+    "expected": "ENFORCED"
+  },
+  "compute.requireShieldedVm": {
+    "type": "boolean",
+    "expected": "ENFORCED"
+  },
+  "compute.restrictProtocolForwarding": {
+    "type": "boolean",
+    "expected": "ENFORCED"
+  }
+}
