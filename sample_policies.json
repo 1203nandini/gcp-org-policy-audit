@@ -1,0 +1,8 @@
+{
+  "compute.vmExternalIpAccess": "ALLOW",
+  "compute.skipDefaultNetworkCreation": "ENFORCED",
+  "compute.allowedVpcPeeringRanges": ["10.0.0.0/8", "192.168.0.0/16"],
+  "compute.osLogin": "ENFORCED",
+  "compute.requireShieldedVm": "DENY",
+  "compute.restrictProtocolForwarding": "ENFORCED"
+}
